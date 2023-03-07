@@ -1,0 +1,20 @@
+# Nmap 7.93 scan initiated Sat Feb 18 00:00:17 2023 as: nmap -A -oN nmap 192.168.173.77
+Nmap scan report for 192.168.173.77 (192.168.173.77)
+Host is up (0.26s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     ProFTPD
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 d2f6531b5a497d748d44f546e39329d3 (RSA)
+|   256 a6836f1b9cdab4418c29f4ef334b20e0 (ECDSA)
+|_  256 a65b800350199166b6c398b8c44f5cbd (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+| http-robots.txt: 1 disallowed entry 
+|_/secret/
+|_http-title: Did not follow redirect to http://funbox.fritz.box/
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb 18 00:01:08 2023 -- 1 IP address (1 host up) scanned in 50.64 seconds

@@ -1,0 +1,21 @@
+# Nmap 7.93 scan initiated Sat Feb 11 00:19:57 2023 as: nmap -A -oN nmap 192.168.157.85
+Nmap scan report for 192.168.157.85 (192.168.157.85)
+Host is up (0.14s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 a9b53e3be374e4ffb6d59ff181e7a44f (RSA)
+|   256 cef3b3e70e90e264ac8d870f1588aa5f (ECDSA)
+|_  256 66a98091f3d84b0a69b000229f3c4c5a (ED25519)
+80/tcp open  http    Apache httpd 2.4.38
+|_http-title: Index of /
+| http-ls: Volume /
+| SIZE  TIME              FILENAME
+| 3.0K  2020-07-07 16:36  save.zip
+|_
+|_http-server-header: Apache/2.4.38 (Debian)
+Service Info: Host: 127.0.0.1; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb 11 00:20:27 2023 -- 1 IP address (1 host up) scanned in 30.37 seconds

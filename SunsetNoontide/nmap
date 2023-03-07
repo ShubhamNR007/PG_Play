@@ -1,0 +1,10 @@
+# Nmap 7.93 scan initiated Sat Feb  4 02:55:03 2023 as: nmap -A -oN nmap 192.168.54.120
+Nmap scan report for 192.168.54.120 (192.168.54.120)
+Host is up (0.14s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+6667/tcp open  irc     UnrealIRCd
+Service Info: Host: irc.foonet.com
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb  4 02:55:36 2023 -- 1 IP address (1 host up) scanned in 32.10 seconds
