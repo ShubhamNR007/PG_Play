@@ -1,0 +1,11 @@
+# Nmap 7.93 scan initiated Sat Feb 18 23:55:58 2023 as: nmap -A -oN nmap 192.168.107.209
+Nmap scan report for 192.168.107.209 (192.168.107.209)
+Host is up (0.25s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.38 ((Debian))
+|_http-title: Example.com - Staff Details - Welcome
+|_http-server-header: Apache/2.4.38 (Debian)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb 18 23:56:47 2023 -- 1 IP address (1 host up) scanned in 49.10 seconds

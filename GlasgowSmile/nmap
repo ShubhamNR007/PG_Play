@@ -1,0 +1,17 @@
+# Nmap 7.93 scan initiated Thu Mar  2 07:30:31 2023 as: nmap -A -oN nmap 192.168.55.79
+Nmap scan report for 192.168.55.79 (192.168.55.79)
+Host is up (0.14s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 6734481f250ed7b3eabb361122608fa1 (RSA)
+|   256 4c8c4565a484e8b1507777a93a960631 (ECDSA)
+|_  256 09e994236097f720cceed6c19bda188e (ED25519)
+80/tcp open  http    Apache httpd 2.4.38 ((Debian))
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Apache/2.4.38 (Debian)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Mar  2 07:31:00 2023 -- 1 IP address (1 host up) scanned in 28.41 seconds
