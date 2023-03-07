@@ -1,0 +1,17 @@
+# Nmap 7.93 scan initiated Sun Jan 29 01:18:29 2023 as: nmap -A -oN nmap 192.168.114.92
+Nmap scan report for 192.168.114.92 (192.168.114.92)
+Host is up (0.26s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 5.9p1 Debian 5ubuntu1.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 011bc8fe18712860846a9f303511663d (DSA)
+|   2048 d95314a37f9951403f49efef7f8b35de (RSA)
+|_  256 ef435bd0c0ebee3e76615c6dce15fe7e (ECDSA)
+80/tcp open  http    Apache httpd 2.2.22 ((Ubuntu))
+|_http-server-header: Apache/2.2.22 (Ubuntu)
+|_http-title: Hello Pentester!
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jan 29 01:19:14 2023 -- 1 IP address (1 host up) scanned in 44.92 seconds

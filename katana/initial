@@ -1,0 +1,21 @@
+# Nmap 7.93 scan initiated Mon Jan  2 12:25:40 2023 as: nmap -A -oN initial 192.168.75.83
+Nmap scan report for 192.168.75.83 (192.168.75.83)
+Host is up (0.31s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+21/tcp   open  ftp     vsftpd 3.0.3
+22/tcp   open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 894f3a5401f8dcb66ee078fc60a6de35 (RSA)
+|   256 ddaccc4e43816be32df312a13e4ba322 (ECDSA)
+|_  256 cce625c0c6119f88f6c4261edefae98b (ED25519)
+80/tcp   open  http    Apache httpd 2.4.38 ((Debian))
+|_http-title: Katana X
+|_http-server-header: Apache/2.4.38 (Debian)
+8088/tcp open  http    LiteSpeed httpd
+|_http-title: Katana X
+|_http-server-header: LiteSpeed
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jan  2 12:28:21 2023 -- 1 IP address (1 host up) scanned in 160.72 seconds

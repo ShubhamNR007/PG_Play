@@ -1,0 +1,17 @@
+# Nmap 7.93 scan initiated Tue Jan  3 06:57:13 2023 as: nmap -sC -sV -oN initial 192.168.75.212
+Nmap scan report for 192.168.75.212 (192.168.75.212)
+Host is up (0.23s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 4495500be473a18511ca10ec1ccbd426 (RSA)
+|   256 27db6ac73a9c5a0e47ba8d81ebd6d63c (ECDSA)
+|_  256 e30756a92563d4ce3901c19ad9fede64 (ED25519)
+80/tcp open  http    Apache httpd 2.4.38 ((Debian))
+|_http-title: Apache2 Debian Default Page: It works
+|_http-server-header: Apache/2.4.38 (Debian)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jan  3 06:58:35 2023 -- 1 IP address (1 host up) scanned in 81.23 seconds

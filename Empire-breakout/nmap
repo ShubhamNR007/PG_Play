@@ -1,0 +1,17 @@
+# Nmap 7.93 scan initiated Fri Feb  3 09:00:06 2023 as: nmap -sC -sV -oN nmap 192.168.54.238
+Nmap scan report for 192.168.54.238 (192.168.54.238)
+Host is up (0.14s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT      STATE SERVICE VERSION
+80/tcp    open  http    Apache httpd 2.4.51 ((Debian))
+|_http-title: Apache2 Debian Default Page: It works
+|_http-server-header: Apache/2.4.51 (Debian)
+10000/tcp open  http    MiniServ 1.981 (Webmin httpd)
+|_http-title: 200 &mdash; Document follows
+|_http-server-header: MiniServ/1.981
+20000/tcp open  http    MiniServ 1.830 (Webmin httpd)
+|_http-title: 200 &mdash; Document follows
+|_http-server-header: MiniServ/1.830
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb  3 09:01:10 2023 -- 1 IP address (1 host up) scanned in 63.35 seconds

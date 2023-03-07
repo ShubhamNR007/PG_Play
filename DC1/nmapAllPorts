@@ -1,0 +1,14 @@
+# Nmap 7.93 scan initiated Wed Jan 25 02:48:14 2023 as: nmap -sV -p- -oN nmapAllPorts -T4 192.168.143.193
+Warning: 192.168.143.193 giving up on port because retransmission cap hit (6).
+Nmap scan report for 192.168.143.193 (192.168.143.193)
+Host is up (0.25s latency).
+Not shown: 65072 closed tcp ports (conn-refused), 459 filtered tcp ports (no-response)
+PORT      STATE SERVICE VERSION
+22/tcp    open  ssh     OpenSSH 6.0p1 Debian 4+deb7u7 (protocol 2.0)
+80/tcp    open  http    Apache httpd 2.2.22 ((Debian))
+111/tcp   open  rpcbind 2-4 (RPC #100000)
+40238/tcp open  status  1 (RPC #100024)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jan 25 03:12:38 2023 -- 1 IP address (1 host up) scanned in 1464.31 seconds

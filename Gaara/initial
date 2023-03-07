@@ -1,0 +1,17 @@
+# Nmap 7.93 scan initiated Mon Jan  2 07:57:35 2023 as: nmap -sC -sV -oN initial 192.168.75.142
+Nmap scan report for 192.168.75.142 (192.168.75.142)
+Host is up (0.19s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 3ea36f6403331e76f8e498febee98e58 (RSA)
+|   256 6c0eb500e742444865effed77ce664d5 (ECDSA)
+|_  256 b751f2f9855766a865542e05f940d2f4 (ED25519)
+80/tcp open  http    Apache httpd 2.4.38 ((Debian))
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: Gaara
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jan  2 07:58:14 2023 -- 1 IP address (1 host up) scanned in 38.47 seconds

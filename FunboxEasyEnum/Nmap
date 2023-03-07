@@ -1,0 +1,17 @@
+# Nmap 7.93 scan initiated Sat Feb 11 05:31:00 2023 as: nmap -A -oN Nmap 192.168.158.132
+Nmap scan report for 192.168.158.132 (192.168.158.132)
+Host is up (0.15s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 9c52325b8bf638c77fa1b704854954f3 (RSA)
+|   256 d6135606153624ad655e7aa18ce564f4 (ECDSA)
+|_  256 1ba9f35ad05183183a23ddc4a9be59f0 (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb 11 05:31:44 2023 -- 1 IP address (1 host up) scanned in 43.89 seconds

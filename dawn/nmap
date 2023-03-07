@@ -1,0 +1,45 @@
+# Nmap 7.93 scan initiated Sat Feb  4 06:20:35 2023 as: nmap -A -oN nmap 192.168.54.11
+Nmap scan report for 192.168.54.11 (192.168.54.11)
+Host is up (0.14s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT     STATE SERVICE     VERSION
+80/tcp   open  http        Apache httpd 2.4.38 ((Debian))
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Apache/2.4.38 (Debian)
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 4.9.5-Debian (workgroup: WORKGROUP)
+3306/tcp open  mysql       MySQL 5.5.5-10.3.15-MariaDB-1
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.5.5-10.3.15-MariaDB-1
+|   Thread ID: 15
+|   Capabilities flags: 63486
+|   Some Capabilities: Speaks41ProtocolOld, Support41Auth, DontAllowDatabaseTableColumn, ConnectWithDatabase, IgnoreSpaceBeforeParenthesis, InteractiveClient, Speaks41ProtocolNew, ODBCClient, IgnoreSigpipes, LongColumnFlag, SupportsLoadDataLocal, SupportsCompression, FoundRows, SupportsTransactions, SupportsMultipleResults, SupportsAuthPlugins, SupportsMultipleStatments
+|   Status: Autocommit
+|   Salt: &?MDL2T18et7S{2'i]xd
+|_  Auth Plugin Name: mysql_native_password
+Service Info: Host: DAWN
+
+Host script results:
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.9.5-Debian)
+|   Computer name: dawn
+|   NetBIOS computer name: DAWN\x00
+|   Domain name: dawn
+|   FQDN: dawn.dawn
+|_  System time: 2023-02-04T06:21:17-05:00
+| smb2-time: 
+|   date: 2023-02-04T11:21:16
+|_  start_date: N/A
+|_clock-skew: mean: 1h40m02s, deviation: 2h53m13s, median: 2s
+| smb2-security-mode: 
+|   311: 
+|_    Message signing enabled but not required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb  4 06:21:21 2023 -- 1 IP address (1 host up) scanned in 45.73 seconds

@@ -1,0 +1,45 @@
+# Nmap 7.93 scan initiated Wed Jan  4 05:35:06 2023 as: nmap -sC -sV -oN initial 192.168.137.76
+Nmap scan report for 192.168.137.76 (192.168.137.76)
+Host is up (0.28s latency).
+Not shown: 995 closed tcp ports (conn-refused)
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 414daa1886948e88a74c6b426076f14f (RSA)
+|   256 4da3d07a8f64ef82452d011318b7e013 (ECDSA)
+|_  256 1a017a4fcf9585bf31a14f1587ab94e2 (ED25519)
+80/tcp   open  http        Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Photographer by v1n1v131r4
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 4.3.11-Ubuntu (workgroup: WORKGROUP)
+8000/tcp open  http        Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-generator: Koken 0.22.24
+|_http-title: daisa ahomi
+Service Info: Host: PHOTOGRAPHER; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.3.11-Ubuntu)
+|   Computer name: photographer
+|   NetBIOS computer name: PHOTOGRAPHER\x00
+|   Domain name: \x00
+|   FQDN: photographer
+|_  System time: 2023-01-04T05:37:07-05:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-time: 
+|   date: 2023-01-04T10:37:02
+|_  start_date: N/A
+| smb2-security-mode: 
+|   311: 
+|_    Message signing enabled but not required
+|_clock-skew: mean: 1h40m04s, deviation: 2h53m15s, median: 2s
+|_nbstat: NetBIOS name: PHOTOGRAPHER, NetBIOS user: <unknown>, NetBIOS MAC: 000000000000 (Xerox)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jan  4 05:37:15 2023 -- 1 IP address (1 host up) scanned in 129.43 seconds

@@ -1,0 +1,33 @@
+# Nmap 7.93 scan initiated Thu Feb 16 09:28:46 2023 as: nmap -sC -sV -oN nmap 192.168.160.136
+Nmap scan report for 192.168.160.136 (192.168.160.136)
+Host is up (0.26s latency).
+Not shown: 995 closed tcp ports (conn-refused)
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 b88c40f65f2a8bf792a8814bbb596d02 (RSA)
+|   256 e7bb11c12ecd3991684eaa01f6dee619 (ECDSA)
+|_  256 0f8e28a7b71d60bfa62bdda36dd14ea4 (ED25519)
+25/tcp  open  smtp     Postfix smtpd
+|_smtp-commands: ubuntu, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN
+| ssl-cert: Subject: commonName=ubuntu
+| Not valid before: 2020-09-08T17:59:00
+|_Not valid after:  2030-09-06T17:59:00
+|_ssl-date: TLS randomness does not represent time
+80/tcp  open  http     Apache httpd 2.4.18 ((Ubuntu))
+|_http-title: Nagios XI
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+389/tcp open  ldap     OpenLDAP 2.2.X - 2.3.X
+443/tcp open  ssl/http Apache httpd 2.4.18 ((Ubuntu))
+|_http-title: Nagios XI
+| tls-alpn: 
+|_  http/1.1
+| ssl-cert: Subject: commonName=192.168.1.6/organizationName=Nagios Enterprises/stateOrProvinceName=Minnesota/countryName=US
+| Not valid before: 2020-09-08T18:28:08
+|_Not valid after:  2030-09-06T18:28:08
+|_ssl-date: TLS randomness does not represent time
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+Service Info: Host:  ubuntu; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Feb 16 09:29:53 2023 -- 1 IP address (1 host up) scanned in 67.07 seconds
