@@ -5,8 +5,9 @@
 # 29/1/2023
 
 ----------------------------------------------------
-# nmap result
+# nmap result / exploitation
 ----------------------------------------------------
+```
 PORT   STATE SERVICE
 22/tcp open  ssh
 80/tcp open  http
@@ -24,3 +25,4 @@ pass:cybersploit{youtube.com/c/cybersploit}
 uname -a
 3.13.0-32-generic
 https://www.exploit-db.com/exploits/37292
+```
