@@ -5,8 +5,9 @@
 # 3/2/2023
 
 ----------------------------------------------------
-# nmap result
+# nmap result / exploitation
 ----------------------------------------------------
+```
 PORT      STATE SERVICE
 80/tcp    open  http
 10000/tcp open  snet-sensor-mgmt
@@ -29,3 +30,4 @@ cd ~
  Ts&4&YurgtRX(=~h
 
 su root
+```
