@@ -5,8 +5,9 @@ SS----------------------------------------------------
 # 3/1/2023
 
 ----------------------------------------------------
-# nmap result
+# nmap result / exploitation
 ----------------------------------------------------
+```
 PORT   STATE SERVICE VERSION
 22/tcp open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
 80/tcp open  http    Apache httpd 2.4.38 ((Debian))
@@ -29,3 +30,4 @@ abc
 
 shub:$1$KifAwBLs$.cDn/iZ5OvQVXo9e/P2el0:0:0:root:/root:/bin/bash
 hacker2:$1$abc$l.v9MnhgHlYBMhmsc8j3O1:0:0:root:/root:/bin/bash
+```
